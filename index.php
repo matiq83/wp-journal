@@ -28,9 +28,6 @@ define('WP_JOURNAL_ASSETS_DIR_PATH', WP_JOURNAL_PLUGIN_PATH . 'assets/');
 define('WP_JOURNAL_SETTINGS_KEY', '_wp_journal_options');
 define('WP_JOURNAL_TEXT_DOMAIN', 'wp_journal');
 define('WP_JOURNAL_POST_TYPE', 'wp_journal');
-define('WP_JOURNAL_OPENAI_TRANSCRIPTIONS_URL', 'https://api.openai.com/v1/audio/transcriptions');
-define('WP_JOURNAL_OPENAI_TRANSCRIPTIONS_MODEL', 'whisper-1');
-define('WP_JOURNAL_UPDATE_URL', 'https://n2g.ee7.myftpupload.com/wp-content/plugins/');
 
 //Plugin update checker
 require WP_JOURNAL_PLUGIN_PATH . 'update/plugin-update-checker.php';
